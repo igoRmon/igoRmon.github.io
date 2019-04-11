@@ -12,11 +12,12 @@ body,
 }
 
 body {
-  background: #2C3A47;
+  background:#1d1d1d;
   color: #fff;
   font-family: "Source Sans Pro";
   text-rendering: optimizelegibility !important;
   -webkit-font-smoothing: antialiased !important;
+  zoom: 90%;
 }
 
 #wrapper {
