@@ -17,7 +17,7 @@ body {
   font-family: "Source Sans Pro";
   text-rendering: optimizelegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  zoom: 90%;
+  zoom: 80%;
 }
 
 #wrapper {
@@ -64,7 +64,8 @@ body {
 }
 
 #wrapper .links {
-  margin-top: 15px;
+  margin-top: 5px;
+  
 }
 
 #wrapper .links a {
@@ -82,7 +83,26 @@ body {
   border-color:  #ee5253;
 }
 
-.footer{
-  background: #ee5253;
-  height: 50px;
+.load{
+  width:100px;
+  height:100px;
+  position:absolute;
+  top:30%;
+  left:45%;
+  color:blue;
+}
+
+footer{
+  font-size: 20px;
+  height: 20px;
+  width: 100%;
+}
+
+.lg{
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.lg:hover{
+  color: #ee5253;
 }
