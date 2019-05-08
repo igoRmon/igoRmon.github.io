@@ -1,49 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Igor Ramon</title>
-</head>
-<body>
-  <div id="wrapper" class="col-xs-">
-    <img src="img/img.jpg" alt="Igor Ramon">
-    <h1>Igor Ramon</h1>
-    <h2 id="titulo">Entusiasta em 'TI'</h2>
-    <p id="desc">Iniciante em programação, sempre disposto a aprender, é um entusiasta de TI, tem conhecimento em Java, C, 
-      Javascript, SQL, HTML, CSS, design UX / UI. Além disso, gosto de lidar com pessoas e está a frente de projetos.
-    </p>
+<html>
 
-    <div class="links">   
-      <a href="https://github.com/igoRmon" target="_blank">
-        <i class="fab fa-github fa-2x"></i>
-      </a>
-      <a href="https://t.me/Haygordev" target="_blank">
-        <i class="fab fa-telegram fa-2x"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/igor-diniz-166034176/"  target="_blank">
-        <i class="fab fa-linkedin fa-2x"></i>
-        <a href="https://www.instagram.com/igorrmon/" target="_blank">
-          <i class="fab fa-instagram fa-2x"></i>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Igor Ramon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="https://www.perfectespresso.ro/themes/Coffee/images/favicon/favicon-180.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar fixed-top" style="background: #1b1919">
+        <div class="col-sm-8"></div>
+        <div class="btn-group col-sm-4" role="group">
+            <button id="btn-main" type="button" class="btn btn-secondary">Main</button>
+            <button id="btn-about" type="button" class="btn btn-secondary">About</button>
+            <button id="btn-contact" type="button" class="btn btn-secondary">Contact</button>
+        </div>
+    </nav>
+    <section id="welcome-section">
+        <h1>Hey i'am Igor</h1>
+        <p>a starter web developer</p>
+    </section>
+    <section id="about">
+        <img id="img-me" src="img/me.jpeg" alt="Igor Ramon">
+        <h2 id="title">Enthusiastic in IT</h2>
+        <p id="description">Always willing to learn, is an IT enthusiast who has basic knowlegde in Java, C,
+            Javascript, SQL, HTML, CSS, UX / UI design. In addition, i like to deal with people and
+            is at the forefront of projects.</p>
+    </section>
+    <section id="contact">
+        <a href="https://github.com/igoRmon" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
         </a>
-      </a>
-    </div>
+        <a href="https://t.me/Haygordev" target="_blank">
+            <i class="fab fa-telegram fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/igor-diniz-166034176/" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+            <a href="https://www.instagram.com/igorrmon/" target="_blank">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+        </a>
+    </section>
     <footer>
-      <u><a href="#" class="lg" id="lg-pt" style="color: #ee5253;">PT-BR</a></u>
-      <u><a href="#" class="lg" id="lg-en">EN-USA</a></u>   
-  </footer>
-  </div>
-  
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="js/lg.js"></script>
+            <nav class="navbar-bottom">
+                Proudly developed by me, 2019.
+            </nav>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!----<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+    <script src="style.js"></script>
 </body>
+
 </html>
