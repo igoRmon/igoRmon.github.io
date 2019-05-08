@@ -1,5 +1,3 @@
-
-var a = document.createElement('a');
 var btn1 = document.querySelector('#btn-main');
 btn1.onclick = ()=>{
     window.location.href = '#welcome-section';
