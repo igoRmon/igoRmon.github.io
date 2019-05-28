@@ -13,22 +13,26 @@ btn3.onclick = () => {
     window.location.href = '#contact';
 }
 
+
 function transition() {
     let texto = document.querySelectorAll('.me');
     texto.forEach(a => {
-        a.style.transition = "4s";
+        a.style.transition = "6s";
         a.style.color = "white";
     });
 }
 transition();
 
 window.onscroll = () => {
-    if (document.scrollingElement.scrollTop >= 530) {
+    console.log(document.scrollingElement.scrollTop);
+    if (document.scrollingElement.scrollTop >= 419) {
+        
         let h2 = document.getElementById('title');
         let p = document.getElementById('description');
-        h2.style.transition = "2s";
+        h2.style.transition = "4s";
         h2.style.color = "black";
-        p.style.transition = "4s";
+        p.style.transition = "8s";
         p.style.color = "black";
     }
 }
+
