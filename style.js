@@ -23,10 +23,8 @@ function transition() {
 }
 transition();
 
-window.onscroll = () => {
-    console.log(document.scrollingElement.scrollTop);
-    if (document.scrollingElement.scrollTop >= 419) {
-        
+window.onscroll = () => {    
+    if (document.scrollingElement.scrollTop >= 419) {    
         let h2 = document.getElementById('title');
         let p = document.getElementById('description');
         h2.style.transition = "4s";
