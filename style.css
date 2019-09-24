@@ -44,7 +44,7 @@ p{
 }
 
 #about div, #about h2, #about p{
-    padding-top: 25px;
+    padding-top: 20px;
     margin-left: auto;
     margin-left: auto;
 }
@@ -87,7 +87,7 @@ h2{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    max-width: 300px;
+    max-width: 600px;
 
 }
 #contact a{
@@ -96,6 +96,10 @@ h2{
 
 #contact a{
     color: #ffffff;
+}
+
+a[data-toggle='tooltip']:hover{
+    transform: scale(1.4);
 }
 
 #contact a i:hover{
