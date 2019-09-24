@@ -98,9 +98,7 @@ h2{
     color: #ffffff;
 }
 
-a[data-toggle='tooltip']:hover{
-    transform: scale(1.4);
-}
+
 
 #contact a i:hover{
     transform: scale(1.4);
